@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Guixian Zou.
+My name is Guixian Zou. Welcome to my homepage!
 
 
 
