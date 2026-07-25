@@ -30,7 +30,7 @@ author:
   location         : "Kaifeng Henan"
   employer         : "Henan University"
   uri              : # URL
-  email            : "guixian_zou@henu.edu.cn" 
+  email            : #"guixian_zou@henu.edu.cn" 
 
   # Academic websites
   academia         : # URL
@@ -81,6 +81,13 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+
+  # Contact information (plain text)
+  contact:
+    - label: "Email"
+      value: "guixian_zou@henu.edu.cn"
+    - label: "Phone"
+      value: "198-0806-0217"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

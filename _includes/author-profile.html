@@ -170,7 +170,14 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+
+      <!-- Contact information (plain text) -->
+      {% if author.contact %}
+        {% for item in author.contact %}
+          <li><span class="author__contact-label">{{ item.label }}:</span> {{ item.value }}</li>
+        {% endfor %}
+      {% endif %}
     </ul>
   </div>
 </div>
