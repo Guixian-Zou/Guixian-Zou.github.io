@@ -1,0 +1,49 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+---
+
+<style>
+.cv-entry {
+  margin-bottom: 2em;
+  padding-top: 1.2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--global-text-color-light);
+}
+.cv-entry:first-of-type {
+  border-top: 1px solid var(--global-text-color-light);
+}
+.cv-entry a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+.cv-entry a:hover {
+  text-decoration: underline;
+}
+.cv-desc {
+  margin-top: 0.4em;
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+}
+</style>
+
+<div class="cv-entry">
+  <a href="{{ '/files/cv-zh.pdf' | relative_url }}" target="_blank">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i> Chinese CV (中文简历)
+  </a>
+  <div class="cv-desc">Click to view or download my CV in Chinese.</div>
+</div>
+
+<div class="cv-entry">
+  <a href="{{ '/files/cv-en.pdf' | relative_url }}" target="_blank">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i> English CV
+  </a>
+  <div class="cv-desc">Click to view or download my CV in English.</div>
+</div>
