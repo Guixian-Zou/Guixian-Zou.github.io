@@ -8,8 +8,17 @@ author_profile: true
 <style>
 .edu-entry {
   margin-bottom: 2em;
+  padding-top: 1.2em;
   padding-bottom: 1.5em;
+  border-top: 1px solid var(--global-text-color-light);
   border-bottom: 1px solid var(--global-text-color-light);
+}
+.edu-entry:first-of-type {
+  border-top: 2px solid var(--global-base-color);
+}
+.edu-entry:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 .edu-school {
   font-size: 1.3em;

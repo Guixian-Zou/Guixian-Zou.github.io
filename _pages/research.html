@@ -15,8 +15,17 @@ author_profile: true
 }
 .research-entry {
   margin-bottom: 2em;
+  padding-top: 1.2em;
   padding-bottom: 1.5em;
+  border-top: 1px solid var(--global-text-color-light);
   border-bottom: 1px solid var(--global-text-color-light);
+}
+.research-entry:first-of-type {
+  border-top: 2px solid var(--global-base-color);
+}
+.research-entry:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 .research-title {
   font-size: 1.15em;
